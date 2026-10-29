@@ -1,0 +1,88 @@
+PS C:\Users\YASHWANTH RAM R\Downloads\Healthcare-Data-Governance> python validation_script.py
+==================================================
+HEALTHCARE DATA VALIDATION REPORT
+==================================================
+
+1. Missing Values Check
+PASS: No missing values found.
+
+2. Duplicate PatientID Check
+PASS: No duplicate Patient IDs found.
+
+3. Age Range Validation (0-120)
+PASS: All ages are within valid range.
+
+4. Dosage Validation (>0 mg)
+PASS: All dosage values are valid.
+
+5. Treatment Duration Validation (>0 days)
+PASS: All treatment durations are valid.
+
+6. Cholesterol Validation (>0)
+PASS: All cholesterol values are valid.
+
+7. Blood Pressure Format Validation
+PASS: Blood pressure format is valid.
+
+8. Data Type Summary
+PatientID                 object
+Age                        int64
+Gender                    object
+Diagnosis                 object
+PrimaryMedication         object
+DosageMg                 float64
+TreatmentDurationDays      int64
+Readmitted                object
+BloodPressure             object
+CholesterolLevel           int64
+dtype: object
+
+==================================================
+VALIDATION COMPLETED
+==================================================
+PS C:\Users\YASHWANTH RAM R\Downloads\Healthcare-Data-Governance> 
+ *  History restored 
+
+PS C:\Users\YASHWANTH RAM R\Downloads\Healthcare-Data-Governance> python validation_script.py
+==================================================
+HEALTHCARE DATA VALIDATION REPORT
+==================================================
+
+1. Missing Values Check
+PASS: No missing values found.
+
+2. Duplicate PatientID Check
+PASS: No duplicate Patient IDs found.
+
+3. Age Range Validation (0-120)
+PASS: All ages are within valid range.
+
+4. Dosage Validation (>0 mg)
+PASS: All dosage values are valid.
+
+5. Treatment Duration Validation (>0 days)
+PASS: All treatment durations are valid.
+
+6. Cholesterol Validation (>0)
+PASS: All cholesterol values are valid.
+
+7. Blood Pressure Format Validation
+PASS: Blood pressure format is valid.
+
+8. Data Type Summary
+PatientID                 object
+Age                        int64
+Gender                    object
+Diagnosis                 object
+PrimaryMedication         object
+DosageMg                 float64
+TreatmentDurationDays      int64
+Readmitted                object
+BloodPressure             object
+CholesterolLevel           int64
+dtype: object
+
+==================================================
+VALIDATION COMPLETED
+==================================================
+PS C:\Users\YASHWANTH RAM R\Downloads\Healthcare-Data-Governance> 
